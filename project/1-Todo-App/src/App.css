@@ -1,0 +1,26 @@
+center{
+  font-weight : 1000;
+  font-size :50px;
+}
+
+input{
+  width: 100%;
+}
+.item-container{
+  text-align: left;
+
+}
+
+.mybutton{
+  
+  width: 120px;
+  font-weight: 600 !important;
+  border-radius: 40px !important;
+  padding: 10px 15px !important;
+  
+
+}
+
+.mycol{
+  padding: 5px;
+}
