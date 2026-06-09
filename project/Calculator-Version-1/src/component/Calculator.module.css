@@ -1,0 +1,16 @@
+.Calculator{
+ 
+  border: 1px solid black;
+  width: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.displayBar{
+width: 200px;
+height: 45px;
+margin-top: 10px;
+}
