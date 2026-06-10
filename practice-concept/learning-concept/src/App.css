@@ -1,0 +1,11 @@
+.buybutton{
+  
+  float: right;
+  font-weight: bold;
+  /* border: 2px solid black; */
+}
+
+.buyitem{
+  border: 2px solid black;
+
+}
