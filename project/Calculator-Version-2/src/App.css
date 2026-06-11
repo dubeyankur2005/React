@@ -1,0 +1,50 @@
+.mybutton{
+  height: 60px;
+  border: none;
+  border-radius: 12px;
+  font-size: 22px;
+  font-weight: bold;
+  transition: all 0.3s;
+
+}
+.buttonContainer{
+  display: grid;
+  grid-template-columns: repeat(4 ,1fr);
+  gap: 12px;
+  
+
+}
+
+.formControl{
+   height: 60px;
+  font-size: 24px;
+  border-radius: 12px;
+}
+body {
+  background: linear-gradient(
+    135deg,
+    #0f172a,
+    #1e293b,
+    #334155
+  );
+}
+
+.numberBtn {
+  background-color: #334155;
+  color: white;
+}
+
+.operatorBtn {
+  background-color: #3b82f6;
+  color: white;
+}
+
+.equalBtn {
+  background-color: #22c55e;
+  color: white;
+}
+
+.clearBtn {
+  background-color: #ef4444;
+  color: white;
+}
