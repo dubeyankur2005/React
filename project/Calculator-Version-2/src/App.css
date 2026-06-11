@@ -19,6 +19,7 @@
    height: 60px;
   font-size: 24px;
   border-radius: 12px;
+  font-weight: bold;
 }
 body {
   background: linear-gradient(
@@ -48,3 +49,14 @@ body {
   background-color: #ef4444;
   color: white;
 }
+
+h1 {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+  background: linear-gradient(90deg, #3b82f6, #22c55e);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
