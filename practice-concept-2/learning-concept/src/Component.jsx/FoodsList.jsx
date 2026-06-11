@@ -14,7 +14,7 @@ function Foodslists (props){
           < div
           class="list-group-item list-group-item-action list-group-item-primary buyitem"
         >
-          <span> {Food} </span>
+          <span className="myfood"> {Food} </span>
           <button className="btn btn-success  buybutton" 
           onClick={ () =>handleClick(Food)}
           >Buy
