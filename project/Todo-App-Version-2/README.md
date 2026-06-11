@@ -1,16 +1,51 @@
-# React + Vite
+# Calculator Version 2.0
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern calculator built using React and Bootstrap.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- Basic arithmetic operations
+- Responsive UI
+- Dark theme design
+- Color-coded buttons
+- Real-time display updates
+- Clear (C) button
+- Equal (=) button for calculations
 
-## React Compiler
+## Technologies Used
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- React.js
+- JavaScript
+- Bootstrap
+- CSS3
+- Vite
 
-## Expanding the ESLint configuration
+## Screenshot
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+(Add a screenshot here)
+
+## Installation
+
+```bash
+npm install
+npm run dev
+```
+
+## Project Structure
+
+src/
+├── Component/
+│ ├── Calculator.jsx
+│ ├── Input.jsx
+│ └── Keys.jsx
+├── Container.jsx
+├── App.jsx
+└── App.css
+<img width="1920" height="1080" alt="Screenshot (218)" src="https://github.com/user-attachments/assets/f0fc20ba-9814-405a-9bba-1eef9551e446" />
+<img width="1920" height="1080" alt="Screenshot (218)" src="https://github.com/user-attachments/assets/1082a9e4-a92d-4d5a-b820-3d246114a44c" />
+
+## Author
+
+Ankur Dubey
+
+Learning React by building projects.
