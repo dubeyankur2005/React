@@ -1,0 +1,263 @@
+body {
+  background: linear-gradient(135deg, #667eea, #764ba2);
+  min-height: 100vh;
+  font-family: "Poppins", sans-serif;
+  padding: 40px 0;
+}
+
+.todo-container {
+  width: 85%;
+  max-width: 1200px;
+  margin: auto;
+  background: white;
+  border-radius: 25px;
+  padding: 40px;
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.15);
+}
+
+.todo-heading {
+  text-align: center;
+  font-size: 4rem;
+  font-weight: 700;
+  color: #4f46e5;
+  margin-bottom: 40px;
+}
+
+.input-box {
+  height: 55px;
+  border-radius: 15px;
+  border: 2px solid #e5e7eb;
+  font-size: 18px;
+}
+
+.input-box:focus {
+  border-color: #4f46e5;
+  box-shadow: 0 0 15px rgba(79, 70, 229, 0.3);
+}
+
+.add-btn {
+  width: 100%;
+  height: 55px;
+  border-radius: 15px;
+  font-size: 18px;
+  font-weight: bold;
+  background: #4f46e5;
+  border: none;
+}
+
+.add-btn:hover {
+  transform: translateY(-2px);
+  transition: 0.3s;
+}
+
+.task-row {
+  margin-top: 20px;
+  padding: 20px;
+  border-radius: 18px;
+  background: #f8fafc;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06);
+  align-items: center;
+  transition: all 0.3s ease;
+}
+
+.task-row:hover {
+  transform: translateY(-3px);
+  background: white;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.12);
+}
+
+.task-name {
+  font-size: 24px;
+  font-weight: 600;
+  color: #111827;
+}
+
+.task-date {
+  font-size: 18px;
+  color: #6b7280;
+}
+
+.delete-btn {
+  width: 100%;* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  background: linear-gradient(
+    135deg,
+    #667eea 0%,
+    #764ba2 50%,
+    #6b73ff 100%
+  );
+
+  font-family: "Poppins", sans-serif;
+  padding: 40px 0;
+}
+
+/* Main Card */
+.todo-container {
+  width: 80%;
+  max-width: 1200px;
+  margin: auto;
+
+  padding: 40px;
+
+  background: rgba(255, 255, 255, 0.12);
+
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+
+  border-radius: 30px;
+
+  border: 1px solid rgba(255, 255, 255, 0.2);
+
+  box-shadow:
+    0 8px 32px rgba(0, 0, 0, 0.2),
+    inset 0 0 20px rgba(255, 255, 255, 0.05);
+}
+
+/* Heading */
+.todo-heading {
+  text-align: center;
+  font-size: 4rem;
+  font-weight: 700;
+  color: white;
+
+  margin-bottom: 40px;
+
+  text-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Inputs */
+.input-box {
+  height: 60px;
+
+  border-radius: 18px !important;
+
+  border: none !important;
+
+  font-size: 18px;
+
+  background: rgba(255, 255, 255, 0.95) !important;
+
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+}
+
+.input-box:focus {
+  box-shadow:
+    0 0 0 3px rgba(255, 255, 255, 0.4),
+    0 0 20px rgba(255, 255, 255, 0.2) !important;
+}
+
+/* Add Button */
+.add-btn {
+  height: 60px;
+  width: 100%;
+
+  border: none !important;
+
+  border-radius: 18px !important;
+
+  font-size: 20px;
+  font-weight: 600;
+
+  background: linear-gradient(
+    135deg,
+    #00c853,
+    #00e676
+  ) !important;
+
+  transition: all 0.3s ease;
+}
+
+.add-btn:hover {
+  transform: translateY(-3px);
+
+  box-shadow: 0 8px 25px rgba(0, 230, 118, 0.4);
+}
+
+/* Task Card */
+.task-row {
+  margin-top: 20px;
+
+  padding: 22px;
+
+  border-radius: 20px;
+
+  background: rgba(255, 255, 255, 0.92);
+
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+
+  align-items: center;
+
+  transition: all 0.3s ease;
+}
+
+.task-row:hover {
+  transform: translateY(-4px);
+
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.15);
+}
+
+/* Task Name */
+.task-name {
+  font-size: 24px;
+
+  font-weight: 600;
+
+  color: #1f2937;
+}
+
+/* Task Date */
+.task-date {
+  font-size: 18px;
+
+  color: #6b7280;
+}
+
+/* Delete Button */
+.delete-btn {
+  width: 100%;
+
+  border: none !important;
+
+  border-radius: 15px !important;
+
+  font-weight: 600;
+
+  padding: 12px;
+
+  transition: all 0.3s ease;
+}
+
+.delete-btn:hover {
+  transform: scale(1.05);
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+  .todo-container {
+    width: 95%;
+    padding: 20px;
+  }
+
+  .todo-heading {
+    font-size: 2.5rem;
+  }
+
+  .task-name {
+    font-size: 18px;
+  }
+}
+  border-radius: 12px;
+  font-weight: bold;
+  padding: 10px;
+}
+
+.delete-btn:hover {
+  transform: scale(1.05);
+  transition: 0.2s;
+}
