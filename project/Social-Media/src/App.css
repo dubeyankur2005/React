@@ -1,0 +1,27 @@
+.sidebar {
+  width: 280px;
+  min-height: 100vh;
+  background: black;
+  color:rgb(9, 17, 230);
+}
+/* Navbar    : #111827
+
+Active    : #3b82f6 */
+/* Background: #f8fafc */
+/* Text      : #ffffff */
+body{
+  Background: #f8fafc
+}
+
+.container-layout{
+  display: flex;
+}
+.sidebar{
+  width: 250px;
+  min-height: 100vh;
+}
+
+.main-content{
+  flex: 10;
+  padding: 50px;
+}
