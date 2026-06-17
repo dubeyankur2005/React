@@ -10,7 +10,7 @@ function PostList () {
 
   return (
     <>
-    {postList.map((post) =><Post />)}
+    {postList.map((post) =><Post key={post.id} post={post}/>)}
     
          
     </>

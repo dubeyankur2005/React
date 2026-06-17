@@ -7,14 +7,37 @@ export const PostListStore = createContext({
 });
 
 const postListReducer = (currPostList, action) =>{
-  return currPostList;
+  let newPostList = currPostList;
+
+  if(action.type === "ADD_POST"){
+    newPostList =[action.payload, ...currPostList]
+  }
+
+
+  return newPostList;
+
+
 }
 
 const PostListStoreProvider =({children})=>{
 
   const[postList , dispatch] = useReducer(postListReducer, DEFAULT_POST_LIST)
 
-  const addPost =() =>{}
+  const addPost =(userId, postTitle, postContent, tags) =>{
+    dispatch({
+      type :"ADD_POST",
+      payload:{
+        id:Date.now(),
+        title:postTitle,
+        body:postContent,
+        userId:userId,
+        tags:tags
+      }
+
+    })
+
+
+  }
 
   const deletePost= ()=>{}
 

@@ -23,7 +23,7 @@ function App() {
         <div className="main-content">
           {selectedTab === "Home"&& <PostList></PostList> }
           {selectedTab === "Create Post" &&
-          <UploadPost></UploadPost>
+          <UploadPost setSelectedTab={setSelectedTab}></UploadPost>
           }
           
 

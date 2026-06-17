@@ -1,15 +1,44 @@
-function Post (){
+function Post({ post }) {
   return (
-    <>
-    <div class="card" style={{width: "18rem"}}>
-  <img src="..." class="card-img-top" alt="..." />
-  <div class="card-body">
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
-  </div>
-</div>
-    
-    </>
-  )
 
+    <div className="card post-card">
+
+      <div className="post-title">
+
+        <h2>{post.title}</h2>
+
+      </div>
+
+      <div className="card-body post-body">
+
+        <p className="card-text">
+
+          {post.body}
+
+        </p>
+
+      </div>
+
+      <div className="post-tags">
+
+        {post.tags.map((tag) => (
+
+          <span
+            key={tag}
+            className="badge post-badge"
+          >
+
+            #{tag}
+
+          </span>
+
+        ))}
+
+      </div>
+
+    </div>
+
+  );
 }
-export  default Post;
+
+export default Post;

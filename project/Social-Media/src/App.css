@@ -1,27 +1,195 @@
-.sidebar {
-  width: 280px;
-  min-height: 100vh;
-  background: black;
-  color:rgb(9, 17, 230);
-}
-/* Navbar    : #111827
+/* ---------- BODY ---------- */
 
-Active    : #3b82f6 */
-/* Background: #f8fafc */
-/* Text      : #ffffff */
 body{
-  Background: #f8fafc
+
+  background:#f1f5f9;
+
+  margin:0;
+
+  padding:0;
+
+  font-family:
+  "Segoe UI",
+  Tahoma,
+  Geneva,
+  Verdana,
+  sans-serif;
+
 }
+
+
+/* ---------- LAYOUT ---------- */
 
 .container-layout{
-  display: flex;
-}
-.sidebar{
-  width: 250px;
-  min-height: 100vh;
+
+  display:flex;
+
+  min-height:85vh;
+
 }
 
+
+/* ---------- SIDEBAR ---------- */
+
+.sidebar{
+
+ 
+  border-radius:20px;
+
+  margin:20px;
+
+  box-shadow:
+
+  0 4px 12px rgba(0,0,0,0.08);
+
+}
+
+
+/* ---------- MAIN CONTENT ---------- */
+
 .main-content{
-  flex: 10;
-  padding: 50px;
+
+  flex:1;
+
+  padding:30px;
+
+  display:flex;
+
+  flex-wrap:wrap;
+
+  gap:35px;
+
+  align-items:flex-start;
+
+}
+
+
+/* ---------- POST CARD ---------- */
+
+.post-card{
+
+  width:420px;
+
+  border:none;
+
+  border-radius:20px;
+
+  padding:20px;
+
+  background:#ffffff;
+
+  box-shadow:
+
+  0 6px 18px
+
+  rgba(0,0,0,0.08);
+
+  transition:all .3s ease;
+
+}
+
+
+/* ---------- HOVER ---------- */
+
+.post-card:hover{
+
+  transform:translateY(-8px);
+
+  box-shadow:
+
+  0 15px 30px
+
+  rgba(0,0,0,0.15);
+
+}
+
+
+/* ---------- TITLE ---------- */
+
+.post-title h2{
+
+  font-size:36px;
+
+  font-weight:700;
+
+  color:#1e293b;
+
+  margin-bottom:20px;
+
+}
+
+
+/* ---------- BODY ---------- */
+
+.post-body{
+
+  padding:0;
+
+}
+
+
+.card-text{
+
+  font-size:18px;
+
+  line-height:1.8;
+
+  color:#475569;
+
+}
+
+
+/* ---------- TAGS ---------- */
+
+.post-tags{
+
+  display:flex;
+
+  flex-wrap:wrap;
+
+  gap:10px;
+
+  margin-top:20px;
+
+}
+
+
+/* ---------- BADGES ---------- */
+
+.post-badge{
+
+ background:#fbbf24;
+
+ padding:8px 16px;
+
+ border-radius:30px;
+
+ font-size:14px;
+
+ font-weight:600;
+
+ color:#000;
+
+}
+
+
+/* ---------- BADGE HOVER ---------- */
+
+.post-badge:hover{
+
+  cursor:pointer;
+
+  transform:scale(1.05);
+
+}
+
+
+/* ---------- FOOTER ---------- */
+
+footer{
+
+  background:#111827;
+
+  color:white;
+
 }

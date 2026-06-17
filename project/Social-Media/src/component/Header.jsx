@@ -1,7 +1,7 @@
 function Header() {
   return (
     <>
-      <header class="p-3 text-bg-dark">
+      <header class="p-3 text-bg-dark ">
         {" "}
         <div class="container">
           {" "}
