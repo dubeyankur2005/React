@@ -1,16 +1,36 @@
-# React + Vite
+## 🚀 Latest Updates - Social Media App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+### 🎨 UI Improvements
 
-Currently, two official plugins are available:
+* Redesigned the overall UI of the Social Media App.
+* Improved the layout, spacing, and card design for a cleaner and more modern look.
+* Enhanced the color combination to create a more professional user experience.
+* Improved the sidebar and post card styling.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+### ✍️ Create Post Feature
 
-## React Compiler
+* Implemented the **Create Post** functionality.
+* Users can now create a new post by entering:
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+  * User ID
+  * Post Title
+  * Post Content
+  * Tags
 
-## Expanding the ESLint configuration
+### ⚛️ State Management
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+* Used **React Context API** to share data across components.
+* Used **useReducer** for centralized state management.
+* Added the `addPost()` functionality to update the global post list.
+
+### 🏠 Automatic Navigation
+
+* After successfully creating a post, users are automatically redirected to the **Home** page.
+* The newly created post is displayed instantly without refreshing the page.
+
+### 🛠️ Technologies Used
+
+* React.js
+* React Hooks (`useState`, `useContext`, `useReducer`, `useRef`)
+* Bootstrap
+* CSS
